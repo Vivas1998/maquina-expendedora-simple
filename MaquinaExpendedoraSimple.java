@@ -57,6 +57,11 @@ public class MaquinaExpendedoraSimple {
         return totalDineroAcumulado;
     }
     
+    public int setprecioBillete(int precio) {
+        precioBillete = precio;
+        return precioBillete;
+    }
+    
     /**
      * Imprime un billete para el cliente actual
      */
